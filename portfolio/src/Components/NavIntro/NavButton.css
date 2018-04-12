@@ -1,0 +1,24 @@
+.nav_button {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 50;
+    shape-padding: 10px;
+    -webkit-transition-duration: 5s; /* Safari */
+      transition-duration: 5s;
+    background: #1e90ff;
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+  clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+  }
+  
+  .nav_page {
+      top: 18%;
+      left: 38.5%;
+  }
+  
+  .nav_menu {
+    font-size: 45px;
+    text-align: center;
+    margin: 27px 0 15px 0;
+    color: white;
+  }

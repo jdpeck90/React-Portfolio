@@ -1,0 +1,33 @@
+.hero_statement {
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 8%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_statement--name {
+    color: white;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .hero_statement h1 {
+    font-size: 90px;
+    text-align: center;
+  }
+
+  .hero_statemen--title {
+      white-space: nowrap;
+  }
+  .hero_statement h4 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  

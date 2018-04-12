@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
+import './Intro.css';
 
 
 class Intro extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
+
     render() { 
         return ( 
             <div>
-                <h1 className="hero_statement"> JUSTIN PECK</h1>
-                <br />
-                <h4 className="hero_statemen__sub">FULL STACK <br /> DEVELOPER</h4>
+                <div className="hero_statement">
+                    <h4 className="hero_statemen--title">FULL STACK DEVELOPER</h4>
+                    <h1 className="hero_statement--name"> JUSTIN PECK</h1>
+                </div>
             </div>
          )
     }

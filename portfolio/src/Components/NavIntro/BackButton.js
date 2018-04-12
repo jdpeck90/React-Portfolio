@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './BackButton.css';
+
 
 class BackButton extends Component {
     
     render() { 
         return ( 
-            <button class="hamburger" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>
+           <div onClick={this.props.hamburgerClick} className="hamburger">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+           </div>
          )
     }
 }

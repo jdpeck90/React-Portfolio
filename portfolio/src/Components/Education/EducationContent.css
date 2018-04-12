@@ -1,0 +1,114 @@
+
+.education_page {
+    top: 10%;
+    left: 12%;
+  position: fixed;
+  }
+  .education_title {
+    display: inline-flex;
+      font-size: 70px;
+      text-align: center;
+      padding: 0 0 5% 0;
+      color: white;
+      margin: 0 75% 0;
+  }
+  
+  .education_body {
+      width: 100%;
+      margin-left: -10%;
+      float: left;
+  }
+  
+  .education_list li {
+      margin-bottom: 25%;
+      width: 100%;
+      text-align: center;
+      font-size: 40px;
+  }
+  .education_description {
+    float: right;
+    position: fixed;
+  }
+  .course {
+  display: none;
+  position: fixed;
+  font-size: 32px;
+  line-height: 1.5em;
+  color: white;
+  font-size: 20px;
+  padding: 0 0 0 40px;
+  margin: 0 0 0 20px;
+  width: 500px;
+  
+  }
+  
+  
+  
+  
+  ul.app_academy.course {
+      left: 49%;
+  }
+  p.app_academy {
+    color: red;
+    font-size: 28px;
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  p.u_of_o {
+    display: none;
+    color: red;
+    font-size: 32px;
+    margin: 0 auto;
+  }
+  ul.u_of_o.course {
+    left: 49%;
+  }
+  
+  li.u_of_o.details_projects {
+      width: 500px;
+      margin-top: 30px;
+      line-height: 1.1;
+  }
+  
+  img.general_assembly {
+    width: 500px;
+  }
+  ul.general_assembly.course {
+      left: 49%;
+  }
+  
+  a.gali {
+    margin-right: 20px;
+  }
+  
+  p.general_assembly {
+    display: none;
+    color: blue;
+    font-size: 26px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  img.app_academy, img.u_of_o {
+    width: 400px;
+  }
+  
+  
+  
+  li.details_title {
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  
+  
+  /*li.ed_item {
+    font-size: 32px;
+    color: white;
+    margin-top: 3.125em;
+  }*/
+  
+  ul.course {
+    font-size: 30px;
+  }
+  
