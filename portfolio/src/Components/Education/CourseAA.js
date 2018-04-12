@@ -9,7 +9,7 @@ class CourseAA extends Component {
     render() { 
         return (
             <ul ref="course_appacademy" className="app_academy course">
-                <li className="app_academy details_image"><img className="app_academy" src="../../images/appacademy.png" /></li>
+                <li className="app_academy details_image"><img className="app_academy" /></li>
                 <li className="app_academy details_title">Javascript intensive bootcamp prep course</li>
                 <li className="app_academy details_description">Sept - Nov 2016</li>
                 <li className="app_academy details_projects hoverDiv">Final Project</li>

@@ -9,14 +9,24 @@ import CourseUO from './CourseUO.js';
 
 class EducationCOntent extends Component {
     constructor(){
-        super();
-                 
-                  this.state = { showItems:[]}
+        super(); 
+        this.state = { showItems:[]}
       }
           
       onClick(index){
+        
         let showItems = this.state.showItems.slice(0);
         showItems[index] = !showItems[index];
+        if (index == 1) {
+            showItems[2] = '';
+            showItems[0] = '';
+        } else if (index == 2) {
+            showItems[1] = '';
+            showItems[0] = '';
+        } else {
+            showItems[1] = '';
+            showItems[2] = '';
+        }
         this.setState({showItems});
       }
     
@@ -37,9 +47,9 @@ class EducationCOntent extends Component {
                 </div>
                 <div className="education_body">
                     <ul className='education_list'>
-                        <li> {this.state.showItems[0] ? <CourseUO /> : null} </li>
-                        <li> {this.state.showItems[1] ? <CourseGA /> : null} </li>
-                        <li>  {this.state.showItems[2] ? <CourseAA /> : null} </li>
+                        <li> {this.state.showItems[0] ? <CourseGA /> : null} </li>
+                        <li>  {this.state.showItems[1] ? <CourseAA /> : null} </li>
+                        <li> {this.state.showItems[2] ? <CourseUO /> : null} </li>
                     </ul>
               </div>
             </div>

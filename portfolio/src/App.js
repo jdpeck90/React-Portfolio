@@ -12,6 +12,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = { page: 'intro',
+      showItems: []
                 }
 
     this.handleOnClick = this.handleOnClick.bind(this)
@@ -19,9 +20,7 @@ class App extends Component {
     this.handleConnectClick = this.handleConnectClick.bind(this)
     this.handleEducationClick = this.handleEducationClick.bind(this)
     this.handleWorkClick = this.handleWorkClick.bind(this)
-    this.handleGAClick = this.handleGAClick.bind(this)
-    this.handleAAClick = this.handleAAClick.bind(this)
-    this.handleUOClick = this.handleUOClick.bind(this)
+
 
   }
 
@@ -58,19 +57,10 @@ class App extends Component {
   handleWorkClick() {
     this.setState({ page: 'work'})
   }
-    handleGAClick() {
-    console.log('​App -> handleGAClick -> handleGAClick', this);
-      
-    }
-    handleAAClick() {
-    console.log('​App -> handleAAClick -> handleAAClick', this);
-      
-    }
-    handleUOClick() {
-    console.log('​App -> handleUOClick -> handleUOClick', this);
-      
-    }
+
     onClick(index){
+    console.log('​App -> onClick -> index', index);
+      
       let showItems = this.state.showItems.slice(0);
       showItems[index] = !showItems[index];
       this.setState({showItems});
@@ -90,7 +80,7 @@ class App extends Component {
       } else if (this.state.page === 'education') {
           var page = <EducationContent 
                   onClick={this.onClick}
-                  {...state}
+              
                   
           />
       } else if (this.state.page === 'work') {
