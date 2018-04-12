@@ -1,0 +1,7 @@
+.work_body {
+    
+    display: -ms-inline-flexbox;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

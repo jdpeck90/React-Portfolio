@@ -1,36 +1,39 @@
 
-.education_page {
-    top: 10%;
-    left: 12%;
-  position: fixed;
+.education {
+
   }
   .education_title {
     display: block;
     font-size: 70px;
     text-align: center;
-    padding: 0 0 5% 0;
     color: white;
   }
   
   .education_body {
-    width: 49.5%;
+    width: auto;
     margin-left: 0%;
+    padding: 0 4rem 0;
+    text-align: center;
     float: none;
-    display: inline-block;
+    display: flex;
+  }
+
+  .education_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
   
   .education_list li {
-      margin-bottom: 25%;
+      margin-bottom: 20%;
       width: 100%;
       text-align: left;
       font-size: 40px;
   }
   .education_description {
     float: right;
-    position: fixed;
   }
   .course {
-  position: fixed;
   font-size: 32px;
   line-height: 1.5em;
   color: white;
